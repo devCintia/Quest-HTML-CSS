@@ -1,0 +1,53 @@
+.header {
+    margin: 30px;
+}
+
+.logo img {
+    width: 220px;
+    margin-top: 20px;
+}
+
+.principal {
+    display: flex;
+    margin: 0px 30px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.ilustracao {
+    max-width: 709px;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 400px;
+    align-items: baseline;
+    padding: 0px 10px 10px 30px;
+    gap: 35px;
+}
+
+.btn {
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.social {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+.social i {
+    padding: 10px;
+    /* margin-right: 20px; */
+    color: white;
+    font-size: 20px;
+}

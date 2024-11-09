@@ -1,0 +1,45 @@
+@media(max-width: 1040px) {
+
+    body {
+        background-image: url('./images/bg-mobile.svg');
+        background-repeat: no-repeat;
+    }
+
+    .logo img{
+        width: 180px;
+    }
+
+    .principal {
+        flex-wrap: wrap;
+    }
+
+    .informacoes {
+        text-align: center;
+    }
+
+    .informacoes p {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .informacoes h1 {
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+    .ilustracao {
+        width: 100%;
+    }
+
+    .social {
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .btn {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px 60px;
+    }
+}
